@@ -1,0 +1,13 @@
+Security Example
+=============================
+
+This application shows how to embed server-side data in an Ext JS application.
+
+Installation
+------------
+You need to copy an ExtJS 3.1 SDK directory into the app. Rename the SDK directory from extjs-3.1xxxxx to simply sdk. <root>/sdk/bootstrap.js should be available, for example.
+
+Overview
+--------
+
+Essentially the data is written out up-front before the application loads up. See index.html. Then it can be consumed in the app later - see Main.js and Show.js for examples.
